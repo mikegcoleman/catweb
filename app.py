@@ -5,7 +5,6 @@ app = Flask(__name__)
 
 # list of cat images
 images = [
-    "https://pbs.twimg.com/profile_images/378800000511679122/18c93d1fc00103fc2ab9b0c1246cddeb.jpeg",
     "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr01/15/9/anigif_enhanced-buzz-31540-1381844535-8.gif",
     "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr05/15/9/anigif_enhanced-buzz-26390-1381844163-18.gif",
     "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr06/15/10/anigif_enhanced-buzz-1376-1381846217-0.gif",
@@ -25,4 +24,4 @@ def index():
     return render_template('index.html', url=url)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port="5000")
+    app.run(host="0.0.0.0")
