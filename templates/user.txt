@@ -1,0 +1,4 @@
+curl -sSl https://get.docker.com | sh
+usermod -aG docker ubuntu
+docker swarm init
+docker service create --name catweb -p 80:5000 -d mikegcoleman/catweb:1.0
