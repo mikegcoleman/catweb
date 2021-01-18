@@ -3,19 +3,23 @@ import random
 
 app = Flask(__name__)
 
-# list of cat images
+# list of cat images 
 images = [
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr01/15/9/anigif_enhanced-buzz-31540-1381844535-8.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr05/15/9/anigif_enhanced-buzz-26390-1381844163-18.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr06/15/10/anigif_enhanced-buzz-1376-1381846217-0.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr03/15/9/anigif_enhanced-buzz-3391-1381844336-26.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr06/15/10/anigif_enhanced-buzz-29111-1381845968-0.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr03/15/9/anigif_enhanced-buzz-3409-1381844582-13.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr02/15/9/anigif_enhanced-buzz-19667-1381844937-10.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr05/15/9/anigif_enhanced-buzz-26358-1381845043-13.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr06/15/9/anigif_enhanced-buzz-18774-1381844645-6.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr06/15/9/anigif_enhanced-buzz-25158-1381844793-0.gif",
-    "http://ak-hdl.buzzfed.com/static/2013-10/enhanced/webdr03/15/10/anigif_enhanced-buzz-11980-1381846269-1.gif"
+    "https://images.pexels.com/photos/730896/pexels-photo-730896.jpeg?cs=srgb&dl=pexels-snapwire-730896.jpg&fm=jpg",
+    "https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?cs=srgb&dl=pexels-lina-kivaka-1741205.jpg&fm=jpg",
+    "https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?cs=srgb&dl=pexels-ihsan-aditya-1056251.jpg&fm=jpg",
+    "https://images.pexels.com/photos/2071873/pexels-photo-2071873.jpeg?cs=srgb&dl=pexels-wojciech-kumpicki-2071873.jpg&fm=jpg",
+    "https://www.pexels.com/photo/adorable-angry-animal-animal-portrait-208984/",
+    "https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?cs=srgb&dl=pexels-marko-blazevic-774731.jpg&fm=jpg",
+    "https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg?cs=srgb&dl=pexels-inge-wallumr%C3%B8d-126407.jpg&fm=jpg",
+    "https://images.pexels.com/photos/2071882/pexels-photo-2071882.jpeg?cs=srgb&dl=pexels-wojciech-kumpicki-2071882.jpg&fm=jpg",
+    "https://images.pexels.com/photos/2071881/pexels-photo-2071881.jpeg?cs=srgb&dl=pexels-wojciech-kumpicki-2071881.jpg&fm=jpg",
+    "https://images.pexels.com/photos/821736/pexels-photo-821736.jpeg?cs=srgb&dl=pexels-alex-andrews-821736.jpg&fm=jpg",
+    "https://images.pexels.com/photos/68594/pexels-photo-68594.jpeg?cs=srgb&dl=pexels-nihat-68594.jpg&fm=jpg",
+    "https://images.pexels.com/photos/1576193/pexels-photo-1576193.jpeg?cs=srgb&dl=pexels-serena-koi-1576193.jpg&fm=jpg",
+    "https://www.pexels.com/photo/closeup-up-photography-of-dragon-li-kitten-691583/",
+    "https://images.pexels.com/photos/248280/pexels-photo-248280.jpeg?cs=srgb&dl=pexels-pixabay-248280.jpg&fm=jpg",
+    "https://images.pexels.com/photos/804475/pexels-photo-804475.jpeg?cs=srgb&dl=pexels-bekka-mongeau-804475.jpg&fm=jpg"
 ]
 
 @app.route('/')
