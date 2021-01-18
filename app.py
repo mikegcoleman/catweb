@@ -5,21 +5,21 @@ app = Flask(__name__)
 
 # list of cat images 
 images = [
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/17/enhanced/webdr10/anigif_enhanced-29828-1403646582-7.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/17/enhanced/webdr06/anigif_enhanced-28244-1403646370-2.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/17/enhanced/webdr10/anigif_enhanced-29510-1403646649-3.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/17/enhanced/webdr10/anigif_enhanced-30034-1403646599-7.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/17/enhanced/webdr09/anigif_enhanced-4743-1403646817-9.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/17/enhanced/webdr08/anigif_enhanced-23675-1403646767-8.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/17/enhanced/webdr10/anigif_enhanced-29994-1403646740-39.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/17/enhanced/webdr08/anigif_enhanced-23704-1403646787-1.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/18/enhanced/webdr02/anigif_enhanced-10067-1403647307-22.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/18/enhanced/webdr06/anigif_enhanced-28044-1403647272-11.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/18/enhanced/webdr09/anigif_enhanced-4685-1403647551-18.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/18/enhanced/webdr02/anigif_enhanced-24306-1403647326-1.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/18/enhanced/webdr07/anigif_enhanced-3756-1403647724-4.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/17/enhanced/webdr09/anigif_enhanced-4743-1403646233-1.gif",
-    "https://img.buzzfeed.com/buzzfeed-static/static/2014-06/24/17/enhanced/webdr05/anigif_enhanced-2087-1403646837-1.gif"
+    "https://images.pexels.com/photos/730896/pexels-photo-730896.jpeg?cs=srgb&dl=pexels-snapwire-730896.jpg&fm=jpg",
+    "https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?cs=srgb&dl=pexels-lina-kivaka-1741205.jpg&fm=jpg",
+    "https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?cs=srgb&dl=pexels-ihsan-aditya-1056251.jpg&fm=jpg",
+    "https://images.pexels.com/photos/2071873/pexels-photo-2071873.jpeg?cs=srgb&dl=pexels-wojciech-kumpicki-2071873.jpg&fm=jpg",
+    "https://www.pexels.com/photo/adorable-angry-animal-animal-portrait-208984/",
+    "https://images.pexels.com/photos/774731/pexels-photo-774731.jpeg?cs=srgb&dl=pexels-marko-blazevic-774731.jpg&fm=jpg",
+    "https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg?cs=srgb&dl=pexels-inge-wallumr%C3%B8d-126407.jpg&fm=jpg",
+    "https://images.pexels.com/photos/2071882/pexels-photo-2071882.jpeg?cs=srgb&dl=pexels-wojciech-kumpicki-2071882.jpg&fm=jpg",
+    "https://images.pexels.com/photos/2071881/pexels-photo-2071881.jpeg?cs=srgb&dl=pexels-wojciech-kumpicki-2071881.jpg&fm=jpg",
+    "https://images.pexels.com/photos/821736/pexels-photo-821736.jpeg?cs=srgb&dl=pexels-alex-andrews-821736.jpg&fm=jpg",
+    "https://images.pexels.com/photos/68594/pexels-photo-68594.jpeg?cs=srgb&dl=pexels-nihat-68594.jpg&fm=jpg",
+    "https://images.pexels.com/photos/1576193/pexels-photo-1576193.jpeg?cs=srgb&dl=pexels-serena-koi-1576193.jpg&fm=jpg",
+    "https://www.pexels.com/photo/closeup-up-photography-of-dragon-li-kitten-691583/",
+    "https://images.pexels.com/photos/248280/pexels-photo-248280.jpeg?cs=srgb&dl=pexels-pixabay-248280.jpg&fm=jpg",
+    "https://images.pexels.com/photos/804475/pexels-photo-804475.jpeg?cs=srgb&dl=pexels-bekka-mongeau-804475.jpg&fm=jpg"
 ]
 
 @app.route('/')
